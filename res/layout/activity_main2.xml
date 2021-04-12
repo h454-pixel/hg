@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2"
+    android:layout_margin="10dp">
+
+
+   <ImageView
+       android:id="@+id/Image_view"
+       android:layout_width="match_parent"
+       android:layout_height="180dp"></ImageView>
+
+
+
+
+    <TextView
+      android:id="@+id/textview_1"
+      android:layout_width="match_parent"
+      android:layout_height="360dp"
+      android:text="text"
+      android:textSize="20dp"
+     android:gravity="fill_vertical"></TextView>
+
+
+
+<TableRow
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    >
+    <Button
+        android:id="@+id/pre_but"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="pre"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="share"
+
+        >
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="next"
+
+        >
+
+
+    </Button>
+</TableRow>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

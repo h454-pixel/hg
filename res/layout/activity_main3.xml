@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="#53B1FB"
+    android:theme="@style/Theme.Design.Light.NoActionBar">
+
+
+    <TextView
+        android:id="@+id/textviewe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="jockes  king"
+        android:textColor="#F4F2F2"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="355dp"></TextView>
+
+
+</LinearLayout>
